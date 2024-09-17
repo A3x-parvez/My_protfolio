@@ -9,17 +9,18 @@
     min-height: 100vh;
     min-width: 100%;
     display: flex;
+    position: relative;
 
 }
 
 .navlist{
     height: 15vh;
     width: 100%;
-    display: flex;
+    display:flex;
     gap: 3rem;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
 }
 
 .navlist li{
@@ -204,7 +205,7 @@ button:nth-child(2):hover{
     min-height: 100%;
     display: flex;
     background: #000000;
-    /*background: linear-gradient(#e6812e 60%,#000000);*/
+    /* background: linear-gradient(#e6812e 10%,#000000 90%); */
 }
 
 .container-3 .projects-heading{
