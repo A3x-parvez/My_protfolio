@@ -6,7 +6,7 @@
 }
 
 .container{
-    min-height: 100vh;
+    min-height: 100%; /*100vh*/
     min-width: 100%;
     display: flex;
     position: relative;
@@ -36,6 +36,7 @@
 }
 
 .left-container,.right-container{
+    /* height: 100vh; */
     height: 100vh;
     display: flex;
     align-items: center;
